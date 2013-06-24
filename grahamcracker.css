@@ -193,6 +193,10 @@ margin:0px;}
     float:left;
 }
 
+#hashtag {
+  font-size: 2em;
+}
+
 #judgeNotification{
   text-align: center;
   font-size: 2em;
