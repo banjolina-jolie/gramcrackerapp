@@ -100,6 +100,10 @@ if (Meteor.isClient) {
     var round = Rounds.findOne({id: Rounds.find().count() - 1});
     return round.prompta;
   };
+ Template.search.prompts = function(){
+    var round = Rounds.findOne({id: Rounds.find().count() - 1});
+    return round.prompta;
+  };
 
   Template.playerBoard.submissions = function(){
     var submissions = Rounds.findOne({id: Rounds.find().count() - 1}).submissions;

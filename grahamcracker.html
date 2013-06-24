@@ -38,7 +38,7 @@
 </template>
 
 <template name="judgeBoard">
-  <h1> You are the Judge!<h2>
+  <div id = "judgeNotification"> You are the Judge!</div>
   <div>{{prompts}}</div>
   <div>the number submissions remaining is {{remains}}</div>
   <div class="submissions">
@@ -48,6 +48,7 @@
         <span>#{{this.hashtag}}</span>
       </div>
     {{/each}}
+
   </div>
 </template>
 
@@ -97,8 +98,8 @@
 </template>
 
 <template name="search">
-  <h2>{{prompts}}</h2>
-  <h3>{{hasher}}}</h3>
+  <div>{{prompts}}<div>
+  <div id = "hashtag">{{hasher}}}</div>
  
 </template>
 
