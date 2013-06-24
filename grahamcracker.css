@@ -193,6 +193,11 @@ margin:0px;}
     float:left;
 }
 
+#judgeNotification{
+  text-align: center;
+  font-size: 2em;
+}
+
 
 #container{ 
     background-color:white;
