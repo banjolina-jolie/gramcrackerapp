@@ -29,7 +29,7 @@
   {{#if player}}
 	  {{#if search}}
 		  {{> search}}
-      {{>images}}
+      {{> images}}
 	  {{else}}
 		  {{> playerBoard}}
     {{/if}}
@@ -38,6 +38,7 @@
 </template>
 
 <template name="judgeBoard">
+  <h1> You are the Judge!<h2>
   <div>{{prompts}}</div>
   <div>the number submissions remaining is {{remains}}</div>
   <div class="submissions">
